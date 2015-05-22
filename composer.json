@@ -1,0 +1,35 @@
+{
+    "name": "datto/json-rpc-ssh",
+    "type": "library",
+    "description": "SSH client and server for JSON-RPC 2.0",
+    "keywords": ["php", "json", "rpc", "jsonrpc", "json-rpc", "php-json-rpc", "ssh", "client", "server"],
+    "homepage": "http://datto.com",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Spencer Mortensen",
+            "email": "smortensen@datto.com",
+            "homepage": "http://spencermortensen.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Matt Coleman",
+            "email": "matt@datto.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "datto/json-rpc": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Datto\\JsonRpc\\Ssh\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Datto\\JsonRpc\\Ssh\\Example\\": "examples"
+        }
+    }
+}
