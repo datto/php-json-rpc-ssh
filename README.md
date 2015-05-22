@@ -30,7 +30,7 @@ $reply = $client->send(); // array('jsonrpc' => '2.0', 'id' => 1, 'result' => 3)
 ### Server
 
 ```php
-$translator = new MethodTranslator();
+$translator = new Translator();
 
 $server = new Server($translator);
 
