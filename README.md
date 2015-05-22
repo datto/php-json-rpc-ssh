@@ -3,10 +3,9 @@
 ## Features
 
 * Fully compliant with the [JSON-RPC 2.0 specifications](http://www.jsonrpc.org/specification) (with 100% unit-test coverage)
-* Versatile:
-  * You can make JSON-RPC requests over HTTP or SSH, or locally through PHP
-  * You can choose your own system for interpreting the JSON-RPC method strings
-* Minimalistic and flexible. Works even when CURL is not installed.
+* Flexible: you can choose your own system for interpreting the JSON-RPC method strings
+* Minimalistic (just two tiny files)
+* Ready to use, with working examples
 
 ## Requirements
 
@@ -51,25 +50,17 @@ by inserting a line in the "require" section of your "composer.json" file:
 
 ## Getting started
 
-1. Try the examples! The "Php" example works right out of the box:
+1. Try the examples! Follow the README file in the "examples" directory to
+set up an SSH environment. Then run the examples from the project directory
+like this:
 	```
-	php examples/Php/client.php
+	php examples/client.php
 	```
-	For the other examples, you'll need to follow the README file to set up the
-	necessary environment first.
 
-2. Once your example is working, replace the method translator and the server-side
-code from the "Example/Stateless" directory with your own code.
+2. Once your example is working, replace the "Server" code with your own code.
 
 3. Write a clean wrapper around the JSON-RPC client class that will dovetail
 nicely with your project.
-
-## Unit tests
-
-You can run the suite of unit tests from the project directory like this:
-```
-./vendor/bin/phpunit
-```
 
 ## Author
 
