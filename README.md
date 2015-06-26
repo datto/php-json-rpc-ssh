@@ -42,10 +42,12 @@ $server->reply();
 ## Installation
 
 If you're using [Composer](https://getcomposer.org/), you can use this package
-by inserting a line in the "require" section of your "composer.json" file:
+([datto/json-rpc-ssh](https://packagist.org/packages/datto/json-rpc-ssh))
+by inserting a line into the "require" section of your "composer.json" file:
 ```
         "datto/json-rpc-ssh": "~1.0"
 ```
+
 
 ## Getting started
 
