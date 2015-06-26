@@ -44,9 +44,8 @@ $server->reply();
 If you're using [Composer](https://getcomposer.org/), you can use this package
 by inserting a line in the "require" section of your "composer.json" file:
 ```
-        "datto/php-json-rpc": "3.0.*"
+        "datto/json-rpc-ssh": "~1.0"
 ```
-
 
 ## Getting started
 
